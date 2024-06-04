@@ -4,7 +4,7 @@ This repository contains a Python script for implementing the Transformer-XL mod
 
 The Transformer-XL model was introduced in the 2019 paper, ‘Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context’ by Dai et al. (https://arxiv.org/abs/1901.02860). 
 
-What is it?
+What is it? \\ 
 Transformer-XL (standing for extra long) is a state-of-the-art neural network architecture designed for sequence modeling tasks, such as language modeling and text generation. 
 
 How is it different from the standard Transformer architecture?
