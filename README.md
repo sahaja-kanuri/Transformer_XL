@@ -8,7 +8,7 @@ What is it?
 Transformer-XL (standing for extra long) is a state-of-the-art neural network architecture designed for sequence modeling tasks, such as language modeling and text generation. 
 
 How is it different from the standard Transformer architecture?
-In a standard Transformer architecture, the model is trained on text segments of fixed lengths, without any information flow across sequences. This limits the possibility of long-term dependency on prior text beyond the fixed context length. The model additionally suffers from the problem of ‘context fragmentation’, which refers to a model lacking necessary contextual information required to well-predict the first few tokens. This arises because of how the context was selected, usually without .. sentence or semantic boundary.
+In a standard Transformer architecture, the model is trained on text segments of fixed lengths, without any information flow across sequences. This limits the possibility of long-term dependency on prior text beyond the fixed context length. The model additionally suffers from the problem of ‘context fragmentation’, which refers to a model lacking necessary contextual information required to well-predict the first few tokens. This arises because of how the context was selected, usually without respecting sentence or semantic boundary.
 
 Transformer-XL overview:
 The Transformer XL introduces the following 2 modifications:
