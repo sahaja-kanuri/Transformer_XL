@@ -14,7 +14,7 @@ In a standard Transformer architecture, the model is trained on text segments of
 
 Transformer-XL overview:
 
-The Transformer XL introduces the following 2 modifications:
+The Transformer-XL introduces the following 2 modifications:
 1. It introduces the notion of recurrence to the original Transformer architecture. Here, we reuse the hidden states from previous segments which is known as the extended context. This serves as memory for the current segment, thereby building the recurrent connection between the sequences. This results in modelling long-term dependency and also, resolves the problem of context fragmentation.
 2. It introduces a novel positional encoding scheme known as the relative positional embeddings, instead of using absolute positional encodings. The necessity for this arises in order to enable state reuse and to avoid temporal ambiguity. 
 
